@@ -1,0 +1,14 @@
+package ar.com.eacosta.springboot.app.products.entity;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tbl_products")
+public class Product implements Serializable{
+	
+	
+
+}
